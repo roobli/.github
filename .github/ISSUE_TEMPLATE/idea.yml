@@ -1,0 +1,24 @@
+name: Idea
+description: A problem Noto could solve better.
+labels: [idea]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem rather than the solution. The problem is what decides whether and how something gets built.
+        [Direction](https://roobli.github.io/Noto.docs/direction/) says what Noto is for and what it will not build.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do, and where does it get in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What you do today instead
+  - type: textarea
+    id: how-often
+    attributes:
+      label: How often you hit it
