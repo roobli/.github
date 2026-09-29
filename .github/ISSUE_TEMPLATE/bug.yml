@@ -1,0 +1,53 @@
+name: Bug
+description: Something does not work the way it says it does.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. The smallest case that shows the problem is the most useful thing you can give.
+        Please never attach private notes: make a small file that reproduces it.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Noto shows it in Settings → Updates. For a library, the package version or tag.
+      placeholder: 0.0.2-alpha.113
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS, Apple silicon
+        - Windows
+        - Linux, Debian or Ubuntu
+        - Linux, Fedora or openSUSE
+        - Not platform-specific
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a note containing …
+        2. Type …
+        3. Save
+    validations:
+      required: true
+  - type: textarea
+    id: file
+    attributes:
+      label: A minimal Markdown file
+      description: |
+        If the file on disk changed in a way you did not expect, paste the smallest file that shows it.
+        Byte-level problems such as line endings, whitespace or BOMs survive best as an attached file.
+      render: markdown

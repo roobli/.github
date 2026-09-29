@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a vulnerability privately
+    url: https://github.com/roobli/.github/blob/main/SECURITY.md
+    about: Use GitHub's private advisory form on the affected repository, not a public issue.
+  - name: Direction and roadmap
+    url: https://roobli.github.io/Noto.docs/direction/
+    about: What Noto is for, what it will not build, and the decisions made so far.

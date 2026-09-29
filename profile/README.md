@@ -8,14 +8,24 @@ Public work from cdcd. Things that outgrew a personal account live here.
 rendered document and writes the file back byte for byte. TypeScript,
 Electron, React, ProseMirror. License is AGPL-3.0-only.
 
+Downloads, guides, and where it is going:
+[roobli.github.io/Noto.docs](https://roobli.github.io/Noto.docs/), including
+the [direction](https://roobli.github.io/Noto.docs/direction/) it is built to.
+
+## @roobli/md
+
+[`@roobli/md`](https://github.com/roobli/md) is the Markdown engine under
+Noto: block spans with exact byte offsets, cheap reparse, and a save that
+leaves untouched blocks as they were. License is MIT, so hosts other than Noto
+can use it.
+
 ## holt
 
 [holt](https://github.com/roobli/holt) is a personal task-stack companion:
 vault-adjacent and file-backed (one markdown file per task, plus an
 append-only history log). The primary view is an ordered vertical stack;
 a Gantt-style timeline is secondary. It is not part of Noto — Noto only
-opens task bodies when you ask. License is still settling with the
-scaffold.
+opens task bodies when you ask. License is MIT.
 
 ## @roobli/canvas
 
