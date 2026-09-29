@@ -4,8 +4,9 @@ Public work from cdcd. Things that outgrew a personal account live here.
 
 ## Noto
 
-[Noto](https://github.com/roobli/Noto) is a Markdown editor that edits the
-rendered document and writes the file back byte for byte. TypeScript,
+[Noto](https://github.com/roobli/Noto): **edit the page, keep the file.** A
+Markdown editor that edits the rendered document and writes the file back
+byte for byte. TypeScript,
 Electron, React, ProseMirror. License is AGPL-3.0-only.
 
 Downloads, guides, and where it is going:
