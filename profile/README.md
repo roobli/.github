@@ -1,6 +1,6 @@
 # roobli
 
-Public work from cdcd. Things that outgrew a personal account live here.
+Open-source tools from RoobLi, and the writing at [www.roobli.org](https://www.roobli.org).
 
 ## Noto
 
