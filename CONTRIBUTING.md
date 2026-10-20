@@ -12,7 +12,7 @@ so a patch for one does not move to another.
 | --- | --- | --- | --- |
 | [Noto](https://github.com/roobli/Noto) | The desktop editor | AGPL-3.0-only | `pnpm verify` |
 | [md](https://github.com/roobli/md) | `@roobli/md`, Noto's Markdown engine | MIT | `pnpm verify` |
-| [Noto.docs](https://github.com/roobli/Noto.docs) | The product and documentation site | not yet set | `pnpm check:roundtrip && pnpm docs:build` |
+| [Noto.docs](https://github.com/roobli/Noto.docs) | The product and documentation site | CC BY 4.0 (prose), MIT (code) | `pnpm check:roundtrip && pnpm docs:build` |
 | [canvas](https://github.com/roobli/canvas) | `@roobli/canvas`, an experimental React kit | MIT | `pnpm verify` |
 | [noto-plugin-template](https://github.com/roobli/noto-plugin-template) | A scaffold for Noto plugins | MIT | — |
 | [holt](https://github.com/roobli/holt) | A file-backed task ledger, separate from Noto | MIT | `pnpm typecheck && pnpm test` |
