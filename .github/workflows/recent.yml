@@ -1,7 +1,7 @@
 name: Refresh recent writing
 
-# The profile README lists the site's latest essays and posts. The site lives
-# in roobli/presence, so this polls its feeds once a day instead of being told.
+# The profile README lists the site's latest essays and posts. Nothing tells
+# this repository when the site changes, so it polls the feeds once a day.
 on:
   schedule:
     - cron: "17 6 * * *"
