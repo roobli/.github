@@ -62,14 +62,15 @@ posts.
 <!-- recent:start -->
 Essays and notes:
 
+- 2026-10-22 · [Eight CA keys that fit in one byte](https://www.roobli.org/essays/emudhra-weak-keys)
+- 2026-10-17 · [TLS Companion](https://www.roobli.org/projects/tls-companion)
+- 2026-10-15 · [ccli](https://www.roobli.org/projects/ccli)
 - 2026-09-28 · [A kernel that is correct](https://www.roobli.org/series/kernels-from-zero/01-a-correct-kernel)
 - 2026-09-28 · [An unchecked todo](https://www.roobli.org/essays/an-unchecked-todo)
-- 2026-09-28 · [Coalescing: what 32 threads ask of memory](https://www.roobli.org/series/kernels-from-zero/02-coalescing)
-- 2026-09-28 · [Every old URL still works](https://www.roobli.org/notes/every-old-url-still-works)
-- 2026-09-28 · [Reading time is counted, not guessed](https://www.roobli.org/notes/reading-time-is-counted)
 
 Posts, short and dated ([timeline](https://www.roobli.org/posts/)):
 
+- 2026-10-22 · [Ten projects, shown working](https://www.roobli.org/posts/2026-10-22-projects)
 - 2026-09-30 · [苹果的 container：一个容器一台虚拟机](https://www.roobli.org/posts/2026-09-30-apple-container)
 - 2026-09-29 · [A fruit fly’s wiring diagram has been hooked up to Doom](https://www.roobli.org/posts/2026-09-29-doomfly)
 <!-- recent:end -->
