@@ -62,11 +62,11 @@ posts.
 <!-- recent:start -->
 Essays and notes:
 
+- 2026-10-24 · [Pin the key you will still hold next year](https://www.roobli.org/essays/certificate-pinning)
+- 2026-10-24 · [The @ is the easy part](https://www.roobli.org/essays/agent-to-agent)
 - 2026-10-22 · [Eight CA keys that fit in one byte](https://www.roobli.org/essays/emudhra-weak-keys)
 - 2026-10-17 · [TLS Companion](https://www.roobli.org/projects/tls-companion)
 - 2026-10-15 · [ccli](https://www.roobli.org/projects/ccli)
-- 2026-09-28 · [A kernel that is correct](https://www.roobli.org/series/kernels-from-zero/01-a-correct-kernel)
-- 2026-09-28 · [An unchecked todo](https://www.roobli.org/essays/an-unchecked-todo)
 
 Posts, short and dated ([timeline](https://www.roobli.org/posts/)):
 
