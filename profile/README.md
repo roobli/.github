@@ -9,9 +9,9 @@ Markdown editor that edits the rendered document and writes the file back
 byte for byte. TypeScript, Electron, React, ProseMirror. License is
 AGPL-3.0-only.
 
-The current release is `v0.0.3` (17 October 2026), the first outside alpha,
-with builds for macOS, Windows and Linux. The builds are not signed yet: macOS
-builds are not notarized and the Windows installer is not code-signed.
+The current release is `v0.0.4` (4 November 2026), with builds for macOS,
+Windows and Linux. The builds are not signed yet: macOS builds are not
+notarized and the Windows installer is not code-signed.
 
 Downloads, guides, and where it is going:
 [roobli.github.io/Noto.docs](https://roobli.github.io/Noto.docs/), including
@@ -30,6 +30,18 @@ Plugins ship inside the app for now and are added to Noto by pull request.
 Noto: block spans with exact byte offsets, cheap reparse, and a save that
 leaves untouched blocks as they were. License is MIT, so hosts other than Noto
 can use it. It is not on npm yet; install it from a git tag.
+
+## @roobli/vault
+
+[`@roobli/vault`](https://github.com/roobli/vault) turns a folder of Markdown
+notes into memory that a person and their agents share, without changing what
+the notes are: one link resolver, an index that can always be rebuilt, git
+history as the record of writes and `.noto/events/` as the record of reads,
+scoped access with notes no agent may see, recall within a budget, and changes
+an agent proposes that a person accepts. Agents reach it through the
+`noto-vault` command line or its MCP server. No runtime dependencies; Node
+22.13 or later. License is AGPL-3.0-only, as Noto's is. It is new and not on
+npm.
 
 ## holt
 
