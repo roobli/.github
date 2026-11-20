@@ -9,7 +9,7 @@ Markdown editor that edits the rendered document and writes the file back
 byte for byte. TypeScript, Electron, React, ProseMirror. License is
 AGPL-3.0-only.
 
-The current release is `v0.0.4` (4 November 2026), with builds for macOS,
+The current release is `v0.1.1` (19 November 2026), with builds for macOS,
 Windows and Linux. The builds are not signed yet: macOS builds are not
 notarized and the Windows installer is not code-signed.
 
@@ -22,14 +22,17 @@ page is checked to round-trip byte for byte through `@roobli/md`.
 Plugins start from
 [noto-plugin-template](https://github.com/roobli/noto-plugin-template): a
 manifest and a renderer or service entry point against Noto's plugin API.
-Plugins ship inside the app for now and are added to Noto by pull request.
+Plugin Center installs plugins from a folder, from a GitHub repository or from
+the marketplace at [noto-plugins](https://github.com/roobli/noto-plugins),
+and runs them sandboxed unless you trust one fully.
 
 ## @roobli/md
 
 [`@roobli/md`](https://github.com/roobli/md) is the Markdown engine under
 Noto: block spans with exact byte offsets, cheap reparse, and a save that
-leaves untouched blocks as they were. License is MIT, so hosts other than Noto
-can use it. It is not on npm yet; install it from a git tag.
+leaves untouched blocks as they were. License is AGPL-3.0-only from `v0.1.25`,
+as Noto's is; `v0.1.24` and earlier stay MIT, so a host that needs MIT pins
+`#v0.1.24`. It is not on npm yet; install it from a git tag.
 
 ## @roobli/vault
 
