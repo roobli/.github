@@ -77,15 +77,15 @@ posts.
 <!-- recent:start -->
 Essays and notes:
 
+- 2026-11-20 · [Shift+Enter gets lost between Kitty and tmux](https://www.roobli.org/notes/kitty-tmux-shift-enter)
+- 2026-11-20 · [Why OpenAI runs Spark](https://www.roobli.org/essays/why-openai-runs-spark)
+- 2026-11-08 · [pi-browser-harness](https://www.roobli.org/projects/pi-browser-harness)
+- 2026-11-05 · [vault](https://www.roobli.org/projects/vault)
 - 2026-10-24 · [Pin the key you will still hold next year](https://www.roobli.org/essays/certificate-pinning)
-- 2026-10-24 · [The @ is the easy part](https://www.roobli.org/essays/agent-to-agent)
-- 2026-10-22 · [Eight CA keys that fit in one byte](https://www.roobli.org/essays/emudhra-weak-keys)
-- 2026-10-17 · [TLS Companion](https://www.roobli.org/projects/tls-companion)
-- 2026-10-15 · [ccli](https://www.roobli.org/projects/ccli)
 
 Posts, short and dated ([timeline](https://www.roobli.org/posts/)):
 
+- 2026-11-20 · [Three new projects, and Noto reaches 0.1](https://www.roobli.org/posts/2026-11-20-three-new-projects)
 - 2026-10-22 · [Ten projects, shown working](https://www.roobli.org/posts/2026-10-22-projects)
 - 2026-09-30 · [苹果的 container：一个容器一台虚拟机](https://www.roobli.org/posts/2026-09-30-apple-container)
-- 2026-09-29 · [A fruit fly’s wiring diagram has been hooked up to Doom](https://www.roobli.org/posts/2026-09-29-doomfly)
 <!-- recent:end -->
